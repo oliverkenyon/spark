@@ -68,5 +68,5 @@
 # - SPARK_IDENT_STRING  A string representing this instance of spark. (Default: $USER)
 # - SPARK_NICENESS      The scheduling priority for daemons. (Default: 0)
 export SPARK_WORKER_INSTANCES=1
-export SPARK_WORKER_MEMORY=1GB
+export SPARK_WORKER_MEMORY=1G
 export SPARK_WORKER_CORES=1
