@@ -67,6 +67,7 @@
 # - SPARK_PID_DIR       Where the pid file is stored. (Default: /tmp)
 # - SPARK_IDENT_STRING  A string representing this instance of spark. (Default: $USER)
 # - SPARK_NICENESS      The scheduling priority for daemons. (Default: 0)
-export SPARK_WORKER_INSTANCES=1
-export SPARK_WORKER_MEMORY=1G
-export SPARK_WORKER_CORES=1
+
+export SPARK_WORKER_INSTANCES=2
+#export SPARK_WORKER_MEMORY=1G
+#export SPARK_WORKER_CORES=1

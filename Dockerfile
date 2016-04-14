@@ -15,6 +15,11 @@ RUN curl -s http://d3kbcqa49mib13.cloudfront.net/spark-1.6.1-bin-hadoop2.6.tgz |
 
 
 ENV SPARK_HOME /usr/local/spark
+ENV WORKER_INSTANCES 1
+ENV WORKER_MEMORY 1G
+ENV WORKER_CORES 1
+ENV EXECUTOR_MEMORY 256M
+ENV DRIVER_MEMORY 256M
 
 COPY conf/* /usr/local/spark/conf/
 COPY run-spark.sh /usr/local/spark/run-spark.sh
